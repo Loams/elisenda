@@ -1,0 +1,758 @@
+/**
+Fonts
+ */
+@font-face {
+    font-family: ArcherBoldPro;
+    src: url("../fonts/Archer-Bold-Pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ArcherBookPro;
+    src: url("../fonts/Archer-Book-Pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ArcherMediumPro;
+    src: url("../fonts/Archer-Medium-Pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ArcherMediumItalPro;
+    src: url("../fonts/Archer-MediumItal-Pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ArcherSemiboldPro;
+    src: url("../fonts/Archer-Semibold-Pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BariolBold;
+    src: url("../fonts/Bariol_Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BauhausStdMedium;
+    src: url("../fonts/Bauhaus Std Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BohoScriptBold;
+    src: url("../fonts/Latinotype - BohoScript-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SacramentoRegular;
+    src: url("../fonts/Sacramento-Regular.ttf") format("truetype");
+}
+
+/**
+Reset
+ */
+
+a:hover {
+    text-decoration: none;
+}
+
+/**
+heading style
+ */
+
+h1 {
+    font-size:2.25em;
+}
+/**
+Color
+ */
+.first-color {
+    background-color: #92bebc;
+}
+
+.second-color {
+    background-color: #a48008;
+}
+
+
+/**
+No gutters
+ */
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.no-gutters.col,
+[class*="col-"].no-gutters {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/**
+Slick
+ */
+.slick-prev:before, .slick-next:before {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.slick-next:before {
+    content: "\f105" !important;
+}
+
+    /**
+    Header Block
+     */
+.logo {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+.social-links i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 78px;
+    color: #ffffff;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+#top-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-links ul {
+    border: none;
+}
+
+#top-links a {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#top-links .dropdown-menu a{
+    color:#62656a;
+}
+
+/**
+Navigation Block
+ */
+
+#navigation {
+    background-color: #ffffff;
+}
+
+#navigation .navbar {
+    padding-top: 9em;
+    padding-bottom:2em;
+}
+
+#navigation li a.nav-link {
+    font-family: BariolBold;
+    color:#62656a;
+    text-transform: uppercase;
+}
+
+#navigation li:not(:first-child) a.nav-link {
+    border-left: 1px solid #000000;
+}
+
+#navigation .navbar-expand-sm .navbar-nav .nav-link {
+    padding:0 1.3em;
+    line-height:1.1em
+}
+
+/**
+Banner
+ */
+
+.banner {
+    height: 6.3em;
+    color: #62656a;
+}
+
+.banner h2 {
+    font-family: ArcherBoldPro;
+    letter-spacing: 0.05em;
+}
+
+.banner p {
+    font-family: ArcherBookPro;
+    font-size:1.375em;
+    letter-spacing: 0.05em;
+}
+
+/**
+Content
+ */
+.content-box {
+    height: 600px
+}
+
+/**
+Presentation Block
+ */
+#presentation {
+    background-color: #a48008;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation .container {
+    margin: 5em 0;
+}
+
+#presentation .left-part {
+    margin-top: 4em;
+}
+
+#presentation .name {
+    font-family: ArcherBoldPro;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#presentation .job {
+    font-family: ArcherSemiboldPro;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.speech {
+    font-family: ArcherMediumPro;
+    font-size: 1.2em;
+    letter-spacing: 0.08em;
+}
+
+.benvinguts {
+    font-family: SacramentoRegular;
+    font-size: 4em;
+}
+/**
+Serveis Block
+ */
+
+#serveis .card {
+    font-family: ArcherBookPro;
+    color: #62656a;
+    border: none;
+}
+
+#serveis h3 {
+    font-size: 2.4em;
+}
+/**
+Activitats Block
+ */
+#activitats ul {
+    list-style-type:none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    margin-bottom:3.125em;
+}
+#home #activitats .row:first-child{
+    margin:0;
+}
+#activitats .container-fluid {
+    background-color: #e6e6e6;
+}
+#activitats ul {
+    margin-top:2em;
+}
+#activitats ul li {
+    line-height:2em;
+}
+#activitats a {
+    font-family: BariolBold;
+    font-size:1.2em;
+}
+#activitats i {
+    margin-right:0.5em;
+}
+#activitats ul li:not(:first-child){
+    border-top: 1px solid #62656a;
+}
+/**
+Articles Block
+ */
+.slider-content {
+    margin: 1em;
+}
+
+#articles .card {
+    border:none;
+}
+
+#articles .card .img-fluid {
+    height:17em;
+}
+
+#articles h3 {
+    width:70%;
+    font-family: BariolBold;
+    letter-spacing: 0.07em;
+    min-height: 2.3em;
+}
+
+#articles .date {
+    font-family: ArcherMediumItalPro;
+}
+
+#articles .card-body {
+    color:#62656a;
+}
+
+#articles .card-content {
+    font-family: ArcherBookPro;
+    font-size:0.9em;
+    letter-spacing: 0.07em;
+    min-height: 12em;
+    margin-bottom: 0;
+}
+#articles .button{
+    text-align: center;
+    padding:0 0.5em;
+    border-left: 1px solid #62656a;
+    border-right: 1px solid #62656a;
+}
+
+#articles .button a {
+    color:#62656a;
+}
+/**
+Publications Block
+ */
+
+#publications h3 {
+    width:40%;
+    font-family: BohoScriptBold;
+    font-size:10em;
+}
+
+#publications h4, #publications .h4 {
+    color: #62656a;
+    font-family: BariolBold;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+
+#publications .content {
+    color:#62656a;
+    font-family: ArcherBookPro;
+    font-size:1em;
+    letter-spacing: 0.05em;
+}
+
+#publications .thumb {
+    height: auto;
+    width: auto;
+    max-width: 244px;
+    max-height: 244px;
+}
+
+#book .title {
+    color:#62656a;
+    margin-top:1.15em;
+    font-family: ArcherBookPro;
+    font-size:3.5em;
+    line-height: 1.1em;
+}
+#book .author {
+    color:#62656a;
+    font-family: ArcherMediumPro;
+}
+/**
+Nunu Block
+ */
+#nunu h3 {
+    font-family: ArcherBoldPro;
+    color:#62656a;
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+}
+#nunu h2 {
+    color: #000000;
+    font-family: BauhausStdMedium;
+    font-weight: bold;
+    font-size:4em;
+    vertical-align: center;
+}
+
+#nunu #background {
+    background-image:url('../img/nunu.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.deco {
+    height: 10px;
+    border-top: 1px solid #62656a;
+    border-bottom: 1px solid #62656a;
+}
+
+#nunu .citation {
+    font-family: SacramentoRegular;
+    font-size: 3.8em;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+}
+
+#nunu a {
+    background-color:#92bebc;
+    font-family: BariolBold;
+    font-size:1.2em;
+    letter-spacing: 0.02em
+}
+
+#nunu a i {
+    vertical-align: middle;
+}
+
+#nunu .content {
+    color:#62656a;
+    font-family: ArcherBookPro;
+    font-size:1em;
+    letter-spacing: 0.06em;
+}
+/**
+Videos Block
+ */
+
+#videos h3 {
+    color:#62656a;
+    font-family: BariolBold;
+    font-size:2.5em;
+    letter-spacing: 0.08em;
+}
+
+#videos a {
+    width:100%;
+    background-color:#92bebc;
+    font-family: BariolBold;
+    font-size:1.2em;
+    letter-spacing: 0.02em
+}
+
+#videos a i {
+    vertical-align: middle;
+}
+
+.square {
+    position: relative;
+    width: 100%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.play {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/**
+Footer
+ */
+
+footer {
+    background-color: #62656a;
+}
+
+/**
+Left part
+ */
+
+footer .left-part li{
+    text-decoration: none;
+    list-style: none;
+}
+
+footer .left-part li a {
+    color:#ffffff;
+    font-family: BariolBold;
+    font-size: 1.1em;
+}
+
+/**
+center part
+ */
+
+footer .center {
+    font-family: BariolBold;
+    font-size: 1.1em;
+}
+
+footer input {
+    border-radius: 5px;
+    margin: 0.5em 0;
+    padding:0.5em;
+    border:none;
+}
+
+footer button.btn{
+    color:#ffffff;
+    background-color: #92bebc;
+    margin: 0.5em 0;
+    padding:0.5em;
+    border:none;
+}
+
+.second-line input,
+.second-line button {
+    width:100%;
+}
+
+footer .social-links i {
+    height:auto;
+}
+
+footer .social-links {
+    font-family: BariolBold;
+    font-size: 1.1em;
+}
+
+footer .legal a {
+    font-family: ArcherSemiboldPro;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
+
+footer .legal a:hover {
+    text-decoration: none;
+}
+
+
+/******************************************************
+    Activitats Page
+******************************************************/
+
+#activitats .content {
+    background-color: #e3e3e3;
+}
+#activitats .box-content {
+    margin-top:1em;
+}
+
+#activitats .row:first-child {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#activitats .box-content div {
+    background-color: #ffffff;
+    border-bottom: 1px solid #d5d4d4;
+}
+
+.box-content {
+    max-height: 450px;
+}
+.box-content .text-content {
+    height:13em;
+}
+.box-content img {
+    height:15.4em;
+    border-bottom: 1px solid #d5d4d4;
+}
+
+.box-content h2 {
+    font-family: BariolBold;
+    min-height:42px;
+    font-size: 1.125em;
+}
+
+.box-content .date {
+    font-family: ArcherMediumItalPro;
+    font-size:1em;
+}
+
+.box-content p:last-child {
+    font-family: ArcherMediumPro;
+    font-size:1em;
+    margin-top:2em;
+}
+.badge {
+    position: absolute;
+    top: 0.9em;
+    right: 2.3em;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    background-color: #ffffff;
+    border-radius: 0;
+}
+
+/******************************************************
+    Equip Page
+******************************************************/
+
+#equip .container {
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
+}
+#equip .text-content {
+    font-family: ArcherBookPro;
+    font-size:1em;
+    line-height:1.5em;
+}
+
+/******************************************************
+    Contact Page
+******************************************************/
+#formulaire{
+    margin-top:2em;
+    margin-bottom:2.5em;
+}
+#formulaire h2 {
+    font-family: ArcherBoldPro;
+    font-size: 2.25em;
+}
+#formulaire p{
+    font-family: ArcherBookPro;
+    font-size:1.25em;
+    line-height:0.6em;
+    margin-top:0.5em;
+    padding-top:0.5em;
+}
+#formulaire form input,
+#formulaire form textarea
+{
+    font-family: ArcherBookPro;
+    border-radius: 5px;
+    margin: 0.5em 0;
+    padding:0.5em;
+    border:1px solid #62656a
+}
+/**
+Responsive
+ */
+@media (min-width: 990px) {
+    #activitats .listing{
+        padding-left:4em;
+    }
+
+    #equip .text-content:first-child {
+        padding-left:9.3em;
+        padding-right:4.25em;
+    }
+    #equip .text-content:last-child {
+        padding-right:9.3em;
+        padding-left:4.25em;
+    }
+}
+@media (max-width: 989px) {
+    #equip .text-content:last-child {
+        margin-top:1.5em;
+    }
+}
+@media (max-width: 576px) {
+    #navigation li:not(:first-child) a.nav-link {
+        border:none;
+    }
+
+    .logo {
+        margin-top:1em;
+        display:flex;
+        width:auto;
+        position:relative;
+        left:0;
+        transform: translate(0,0);
+    }
+
+    .logo img {
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    #navigation .navbar {
+        padding-top:0;
+    }
+
+    .navbar-toggler {
+        margin-top:1em;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    #navbarToggler {
+        margin-top:1em;
+    }
+
+    #navigation .navbar-expand-sm .navbar-nav .nav-link {
+        line-height:inherit;
+    }
+    #presentation .container {
+        margin: 2em 0;
+    }
+    #presentation .left-part {
+        margin-top: 2em;
+    }
+
+    #serveis h3 {
+        font-size: 1.6em;
+    }
+
+    .banner {
+        height:auto;
+    }
+    #articles .card .img-fluid {
+        height:auto;
+    }
+    .card-body {
+        padding:1em 0;
+    }
+
+    #articles h3 {
+        width:100%;
+    }
+
+    #articles .card-content {
+        margin-bottom:1em;
+    }
+
+    #publications h3 {
+        width:100%;
+        font-size:5em;
+    }
+
+    #nunu #background {
+        background-position: center center;
+    }
+
+    #nunu h3 {
+        font-size:1.8em;
+    }
+    #nunu .citation {
+        font-size:2.8em;
+    }
+
+    #videos h3 {
+        font-size:1.5em;
+    }
+
+    footer .social-links {
+        margin-right:auto;
+    }
+    footer .social-links p {
+        text-align: center;
+    }
+
+    footer .legal a {
+        font-size:0.9em;
+        text-align:center;
+    }
+}
+
